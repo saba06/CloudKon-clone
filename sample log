@@ -1,0 +1,16 @@
+Creating a new SQS queue calledrequest.
+
+Listing all queues in your account.
+
+  QueueUrl: https://sqs.us-east-1.amazonaws.com/324288931835/request
+
+Creating a new SQS queue calledresponse.
+
+Listing all queues in your account.
+
+  QueueUrl: https://sqs.us-east-1.amazonaws.com/324288931835/request
+
+Created Table: {AttributeDefinitions: [{AttributeName: message,AttributeType: S}],TableName: table,KeySchema: [{AttributeName: message,KeyType: HASH}],TableStatus: CREATING,CreationDateTime: Tue May 03 18:36:39 CDT 2016,ProvisionedThroughput: {NumberOfDecreasesToday: 0,ReadCapacityUnits: 100,WriteCapacityUnits: 100},TableSizeBytes: 0,ItemCount: 0,TableArn: arn:aws:dynamodb:us-east-1:324288931835:table/table,}
+Waiting for table to become ACTIVE...
+Table Description: {AttributeDefinitions: [{AttributeName: message,AttributeType: S}],TableName: table,KeySchema: [{AttributeName: message,KeyType: HASH}],TableStatus: ACTIVE,CreationDateTime: Tue May 03 18:36:39 CDT 2016,ProvisionedThroughput: {NumberOfDecreasesToday: 0,ReadCapacityUnits: 100,WriteCapacityUnits: 100},TableSizeBytes: 0,ItemCount: 0,TableArn: arn:aws:dynamodb:us-east-1:324288931835:table/table,}
+enter the number of workeres
